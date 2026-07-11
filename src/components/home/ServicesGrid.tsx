@@ -89,6 +89,8 @@ export default function ServicesGrid() {
                     alt="الوساطة والتطوير العقاري"
                     fill
                     className="object-cover"
+                    sizes="(max-width: 1024px) 100vw, 33vw"
+                    quality={80}
                   />
                   <div className="absolute inset-0 bg-gradient-to-b from-[#3a4a35]/80 via-[#3a4a35]/70 to-[#2d3828]/90" />
                 </div>

@@ -19,6 +19,8 @@ export default function HeroSection() {
           fill
           className="object-cover"
           priority
+          sizes="100vw"
+          quality={80}
         />
         {/* Soft overlay to ensure readability */}
         <div className="absolute inset-0 bg-white/5 backdrop-blur-[0.5px]" />

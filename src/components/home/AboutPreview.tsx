@@ -22,6 +22,7 @@ export default function AboutPreview() {
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
+                  quality={80}
                 />
               </div>
               {/* Decorative element */}

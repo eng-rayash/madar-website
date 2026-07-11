@@ -14,6 +14,8 @@ export default function ServicesHero() {
           fill
           className="object-cover"
           priority
+          sizes="100vw"
+          quality={80}
         />
         <div className="absolute inset-0 bg-black/45" />
       </div>

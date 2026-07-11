@@ -19,6 +19,7 @@ export default function WhoWeAre() {
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 50vw"
+                quality={80}
               />
             </div>
           </AnimatedSection>

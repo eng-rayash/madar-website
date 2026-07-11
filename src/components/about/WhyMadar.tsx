@@ -47,10 +47,10 @@ export default function WhyMadar() {
           <AnimatedSection direction="right">
             <div className="grid grid-cols-2 gap-4">
               <div className="relative rounded-2xl overflow-hidden aspect-square shadow-card">
-                <Image src="/images/WhyMadarImg.png" alt="مدار وآفاق - البنية التحتية" fill className="object-cover" />
+                <Image src="/images/WhyMadarImg.png" alt="مدار وآفاق - البنية التحتية" fill className="object-cover" sizes="(max-width: 768px) 50vw, 25vw" quality={80} />
               </div>
               <div className="relative rounded-2xl overflow-hidden aspect-square shadow-card mt-8">
-                <Image src="/images/Image1.png" alt="مدار وآفاق - الفريق" fill className="object-cover" />
+                <Image src="/images/Image1.png" alt="مدار وآفاق - الفريق" fill className="object-cover" sizes="(max-width: 768px) 50vw, 25vw" quality={80} />
               </div>
               <div className="col-span-2 bg-olive rounded-2xl p-6 text-white">
                 <p className="font-cairo font-bold text-base mb-2">نؤمن في مدار وآفاق</p>
